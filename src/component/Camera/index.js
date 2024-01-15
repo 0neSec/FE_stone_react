@@ -42,7 +42,7 @@ const Camera = ({ artikelData }) => {
     e.preventDefault();
     
     try {
-      const response = await axios.post('http://localhost:5000/predict', {
+      const response = await axios.post('http://4.145.90.55:8000/predict', {
         message: inputValue
       });
       console.log(response);

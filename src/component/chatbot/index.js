@@ -267,7 +267,7 @@ export default function App() {
       sendToChatbot([...messages, userMessage]);
 
       try {
-        const response = await fetch("http://localhost:5000/chatbot", {
+        const response = await fetch("http://4.145.90.55:8000/chatbot", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
