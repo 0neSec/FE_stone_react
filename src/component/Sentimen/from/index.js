@@ -10,7 +10,7 @@ const TambahReviewForm = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/tambah_review', {
+      const response = await axios.post('http://4.145.90.55:8000/tambah_review', {
         nama,
         tanggal,
         review,

@@ -8,7 +8,7 @@ function SentimenComponent() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/sentimen');
+        const response = await axios.get('http://4.145.90.55:8000/sentimen');
         setSentimenData(response.data);
       } catch (error) {
         console.error('Error fetching sentimen data:', error);
